@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Furniture - Products</title>
+  <link rel="stylesheet" href="royal.css">
+</head>
+<body>
+
+  <header>
+    <h1>Royal Furniture</h1>
+    <p>Luxury Furniture for Elegant Living</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="PRODUCTS.HTML">Products</a></li>
+      <li><a href="About Us.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="product-banner">
+    Premium Furniture Collection
+  </div>
+
+  <!-- Products are now loaded securely from the backend API (see royal.js) -->
+  <!-- so prices/stock can never be edited in the browser. Adding new products -->
+  <!-- means adding a database row, not editing this HTML. -->
+  <div id="product-catalog">
+    <p class="loading-products">Loading products…</p>
+  </div>
+
+  <footer>
+    © 2026 <span>Royal Furniture</span>. All Rights Reserved. | Nairobi, Kenya |
+    <a href="https://wa.me/254716817495" target="_blank" rel="noopener"
+       style="color:#25D366;font-weight:700;margin-left:6px;">WhatsApp Us</a>
+  </footer>
+
+  <script src="royal.js"></script>
+</body>
+</html>
