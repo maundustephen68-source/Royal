@@ -915,8 +915,15 @@ footer span { color: var(--gold); }
 
   .products { padding: 20px 16px 40px; gap: 18px; }
   .section { padding: 28px 20px; margin: 30px 16px; }
-  .cart-icon { display: none; }
-  .whatsapp-float, .back-to-top { bottom: 20px; right: 16px; }
+.cart-icon {
+     padding: 8px 12px;
+     font-size: 13px;
+     top: 14px;
+     right: 14px;
+     transform: none;
+   }
+   .cart-label { display: none; }
+   header { padding: 20px 16px 16px; }  .whatsapp-float, .back-to-top { bottom: 20px; right: 16px; }
   .back-to-top { bottom: 86px; }
   .whatsapp-tooltip { right: 16px; }
 }
