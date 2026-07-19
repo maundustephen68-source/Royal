@@ -212,8 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (header) {
       const cartIcon = document.createElement('div');
       cartIcon.classList.add('cart-icon');
-      cartIcon.innerHTML = `🛒 Cart <span class="cart-count">0</span>`;
-      header.appendChild(cartIcon);
+cartIcon.innerHTML = `🛒 <span class="cart-label">Cart</span> <span class="cart-count">0</span>`;      header.appendChild(cartIcon);
       cartIcon.addEventListener('click', openCart);
     }
 
